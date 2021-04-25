@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		*****IN DEVELOPMENT*****
+		<title>SpaceX Club - Welcome</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	<body>
+		<h1>SpaceX Club</h1>
+
+		<!-- Nav Bar -->
+	<p><a href="index.html">Home</a><br><a href="../about/about.html">About</a><br><a href="../vehicles/vehicles.html">Vehicles</a><br><a href="../launches/launches.html">Launches</a><br><a href="../news/news.html">News</a><br><a href="../starshipupdates/updates.html">Starship Updates</a></p>
+
+		<h1>Upcoming Launches</h1>
+			<p>Mission: Starship 10 Kilometer Test Flight<br>Date: NET April 26, 2021<br>Vehicle: <a href="../vehicles/sn15/sn15.html">Starship SN15</a><br>Launch Site: <a href="https://www.google.com/maps/place/SpaceX+launch+Pad+Boca+Chica/@25.9967215,-97.1564051,17.5z/data=!4m5!3m4!1s0x866fb39d87ea0d37:0x6cf7c0629fb7fd25!8m2!3d25.9970518!4d-97.1552727" target="_blank">Pad A, Starbase, Texas, USA</a></p>
+
+			<p>Mission: SpaceX Starlink V1 L24<br>Date: NET April 28, 2021, 12:05 AM EST<br>Booster: <a href="../vehicles/B1060/1060.html">B1060</a><br>Launch Site: <a href="https://www.google.com/maps/place/Space+Launch+Complex+40/@28.5621041,-80.5794808,17z/data=!3m1!4b1!4m5!3m4!1s0x88e0bb299cde9295:0x917e8e53b6d3d1a1!8m2!3d28.5621041!4d-80.5772921" target="_blank">SLC-40, Cape Canaveral Space Force Station, Florida, USA</a></p>
+
+			<p>Mission: SpaceX Starlink V1 L25<br>Date: NET April 2021<br>Booster: Unknown</a><br>Launch Site: Unknown</a></p>
+	</body>
+</html>
