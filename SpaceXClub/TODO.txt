@@ -1,0 +1,5 @@
+4. Update any future launch info
+5. Create upcoming events page (dragon dock/undock, starship tests (except flights),
+6. Create missions page (only accessable through booster/dragon/starship/superheavy pages) (sub-page under vehicles page)
+7. Login page for "starshipupdates" page?
+8. Add results to starship vehicle pages (successful test, explosion, partial failure (raptor replacement, etc))
