@@ -1,6 +1,0 @@
-**Figure out github publishing issue**
-. Create upcoming events page (dragon dock/undock, starship tests (except flights),
-. Create missions page (only accessable through booster/dragon/starship/superheavy pages) (sub-page under vehicles page)
-. Login page for "starshipupdates" page?
-. Add results to starship vehicle pages (successful test, explosion, partial failure (raptor replacement, etc))
-. Figure out readme

@@ -1,4 +1,0 @@
-1. new sightings by Mary
-2. updates from elon
-3. all minor info about starship not worthy of the events page
-4. still include tests/flights as on the events + launch pages
