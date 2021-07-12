@@ -2,6 +2,8 @@
 	float: left;
 	color: black;
 	border-right: 1px solid #bbb;
+	display: block;
+	padding: 8px;
 }
 
 .navbar {
@@ -10,14 +12,12 @@
 	margin: 0;
 	padding: 0;
 	position: fixed;
+	width: 100%;
+
 }
 
-.navlogo {
-	text-decoration: none;
-}
-
-.navlogo:hover {
-	background-color: #111;
+a {
+	color:#0000ff;
 }
 
 .navlist {
@@ -35,10 +35,14 @@
 	padding: 8px;
 	background-color: #dddddd;
 	text-decoration: none;
+	text-align: center;
+	float: left;
+	color: black;
+	font-size: 22px;
 }
 
 .navlinks:hover {
-	background-color: #111;;
+	background-color: #595959;;
 }
 
 .navlinks:active {
