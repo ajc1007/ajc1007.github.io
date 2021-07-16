@@ -1,0 +1,50 @@
+.main_title {
+	float: left;
+	color: black;
+	border-right: 1px solid #bbb;
+	display: block;
+	padding: 8px;
+}
+
+.navbar {
+	background-color: #dddddd;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+
+}
+
+a {
+	color:#0000ff;
+}
+
+.navlist {
+	float: left;
+	color: black;
+	border-right: 1px solid #bbb;
+}
+
+.navlist:last-child {
+	border-right: none;
+}
+
+.navlinks {
+	display: block;
+	padding: 8px;
+	background-color: #dddddd;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+	color: black;
+	font-size: 22px;
+}
+
+.navlinks:hover {
+	background-color: #595959;;
+}
+
+.navlinks:active {
+	background-color: red;
+}
