@@ -1,0 +1,62 @@
+a {
+	color: #0000ff;
+}
+
+.title {
+	text-align: center;
+}
+
+.status {
+	border: 2px;
+	border-style: solid;
+	border-color: #fcba03;
+	border-radius: 20px;
+	padding: 20px;
+	height: 90px;
+	width: 250px;
+	text-align: center;
+	font-size: x-large;
+}
+
+.manifest {
+	text-align: center;
+}
+
+.mission {
+	border: 2px solid royalblue;
+	border-radius: 20px;
+	padding: 20px;
+	height: 90px;
+	width: 325px;
+	text-align: center;
+}
+
+.verticle {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+div {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.left {
+	grid-column: 2;
+}
+
+.mid {
+	grid-column: 3;
+}
+
+.right {
+	grid-column: 4;
+}
+
+.center {
+	position: relative;
+	left: 86%;
+}

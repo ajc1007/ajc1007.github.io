@@ -48,3 +48,42 @@ a {
 .navlinks:active {
 	background-color: red;
 }
+
+div {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.mission {
+	border: 2px solid royalblue;
+	border-radius: 20px;
+	padding: 20px;
+	width: 360px;
+	height: 110px;
+	text-align: center;
+	vertical-align: 75%;
+}
+
+.rtt {
+	text-align: center;
+}
+
+.date {
+	text-align: center;
+}
+
+.left {
+	grid-column: 2;
+}
+
+.mid {
+	grid-column: 3;
+}
+
+.right {
+	grid-column: 4;
+}
+
+.launch2022 {
+	text-align: center;
+}
