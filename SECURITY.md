@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-V0.2.0.1
+V0.3
 
 ## Reporting a Vulnerability
 
