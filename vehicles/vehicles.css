@@ -55,7 +55,8 @@ a {
 }
 
 .vehicle {
-	border: 2px solid royalblue;
+	border: 3px;
+	border-style: solid;
 	border-radius: 20px;
 	padding: 20px;
 	width: 190px;
@@ -82,4 +83,20 @@ div {
 
 .right {
 	grid-column: 4;
+}
+
+.active {
+	border-color: #00f044;
+}
+
+.expended {
+	border-color: #ff0000;
+}
+
+.destroyed {
+	border-color: #ff0000;
+}
+
+.retired {
+	border-color: #fcba03;
 }

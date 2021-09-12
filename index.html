@@ -25,10 +25,45 @@
 		<h1 class="ULheading">Upcoming Launches</h1>
 			<p class="ULcredit"><em>Launch information provided via Next Spaceflight</em></p>
 
-				<p class="mission left">Mission: Starlink 2-1<br>Date: NET Monday, September 13, 2021<br>Booster: <a href="vehicles/B1049/1049.html">B1049</a><br>Launch Site: <a href="https://www.google.com/maps/place/Vandenberg+AFB+Space+Launch+Complex+4/@34.6320264,-120.6128484,17z/data=!3m1!4b1!4m5!3m4!1s0x80ec23f11fbb6627:0xb2890f36a4a066a3!8m2!3d34.632022!4d-120.6106597" target="_blank">SLC-4E, Vandenberg Air Force Base, California, USA</a></p>
+				<p>Mission: Starlink 2-1<br>Date: NET Monday, September 13, 2021 11:55 PM EST<br>Booster: <a href="vehicles/B1049/1049.html">B1049</a><br>Launch Site: <a href="https://www.google.com/maps/place/Vandenberg+AFB+Space+Launch+Complex+4/@34.6320264,-120.6128484,17z/data=!3m1!4b1!4m5!3m4!1s0x80ec23f11fbb6627:0xb2890f36a4a066a3!8m2!3d34.632022!4d-120.6106597" target="_blank">SLC-4E, Vandenberg Air Force Base, California, USA</a></p>
 
-				<p>Mission: Inspiration4 <br>Date: NET Tuesday, September 14, 2021 8:00 PM EST<br>Booster: <a href="vehicles/B1062/1062.html">B1062</a> <br>Capsule: <a href="vehicles/resilience/resilience.html">Crew Dragon Resilience</a> <br>Launch Site: <a href="https://www.google.com/maps/place/SpaceX+LC-39A/@28.608325,-80.610133,17z/data=!4m5!3m4!1s0x88e0bb24f655f527:0x473061dd55a4461d!8m2!3d28.6082785!4d-80.6041199" target="_blank">Pad 39A, Cape Canaveral Space Force Station, Florida, USA</a></p>
+				<p>Mission: Inspiration4 <br>Date: NET Tuesday, September 14, 2021 8:01 PM EST<br>Booster: <a href="vehicles/B1062/1062.html">B1062</a> <br>Capsule: <a href="vehicles/resilience/resilience.html">Crew Dragon Resilience</a> <br>Launch Site: <a href="https://www.google.com/maps/place/SpaceX+LC-39A/@28.608325,-80.610133,17z/data=!4m5!3m4!1s0x88e0bb24f655f527:0x473061dd55a4461d!8m2!3d28.6082785!4d-80.6041199" target="_blank">Pad 39A, Cape Canaveral Space Force Station, Florida, USA</a></p>
 
 				<p>Mission: Starlink<br>Date: NET September 2021<br>Booster: Unknown<br>Launch Site: Unknown</p>
+
+		<br>
+
+		<h1 class="countdown">Launch Countdown</h1>
+			<h3 class="countdown"><b>Time Until Next Launch:</b></h3>
+			<h3 class="countdown" id="countdown"></h3>
+
+		<script>
+			//set countdown date
+			var countDownDate = new Date("September 13, 2021 23:55").getTime();
+
+			//update count every second
+			var x = setInterval(function() {
+				//get today's date
+				var now = new Date().getTime();
+
+				//get distance between now and target date
+				var distance = countDownDate - now;
+
+				//calculations for days, hours, minutes, seconds
+				var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+				var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+				var seconds = Math.floor((distance % (1000 * 60)) / (1000));
+
+				//display result in the element with id=countdown
+				document.getElementById("countdown").innerHTML = days + " Days " + hours + " Hours " + minutes + " Minues " + seconds + " Seconds ";
+
+				//if countdown is finished, display text
+				if (distance < 0) {
+					clearInterval(x);
+					document.getElementById("countdown").innerHTML = "Launch! Standby for next launch countdown"
+				}
+			}, 1000);
+		</script>
 	</body>
 </html>
