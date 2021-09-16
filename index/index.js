@@ -1,5 +1,5 @@
 //set countdown date
-	var countDownDate = new Date("September 15, 2021 20:02").getTime();
+	var countDownDate = new Date("September 15, 2021 20:02:56").getTime();
 
 //update count every second
 	var x = setInterval(function() {
@@ -22,6 +22,6 @@
 //if countdown is finished, display text
 	if (distance < 0) {
 		clearInterval(x);
-		document.getElementById("countdown").innerHTML = "Launch! Standby for next launch countdown"
+		document.getElementById("countdown").innerHTML = "Standby for next launch countdown"
 	}
 }, 1000);
