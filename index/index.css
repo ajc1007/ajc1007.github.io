@@ -13,7 +13,6 @@
 	padding: 0;
 	position: fixed;
 	width: 100%;
-
 }
 
 a {
@@ -63,6 +62,16 @@ a {
 	text-align: center;
 }
 
+.mission {
+	border: 2px solid royalblue;
+	border-radius: 20px;
+	padding: 20px;
+	width: 360px;
+	height: 110px;
+	text-align: center;
+	vertical-align: 75%;
+}
+
 div {
 	display: grid;
 	grid-template-columns: auto auto auto;
@@ -78,4 +87,12 @@ div {
 
 .right {
 	grid-column: 4;
+}
+
+.ULheading {
+	text-align: center;
+}
+
+.ULcredit {
+	text-align: center;
 }
